@@ -15,46 +15,28 @@ TMA dashboard is a c-panel for (Teach Me Arabic) project for e-learning and educ
 ---
 ## Filesystem and file architecture.
 
-```
-+-- public
-+-- package.json
-+-- src
-|   +-- __ test __
-|   +-- configs
-|   +-- app
-|   +-- assets
-|   +-- components
-|   +-- pages
-|   +-- configs
-|   +-- duck
-|   +-- helpers
-|   +-- utils
-|   +-- shared
-|   +-- locales
-|   +-- index.tsx
-|   +-- i18n.ts
-|   +-- app.test.tsx
-|   +-- env.ts
-+-- README.md
-```
-
 
 ```
-├── _config.yml
-├── _drafts
-│   ├── begin-with-the-crazy-ideas.textile
-│   └── on-simplicity-in-technology.markdown
-├── _includes
-│   ├── footer.html
-│   └── header.html
-├── _layouts
-│   ├── default.html
-│   └── post.html
-├── _posts
-│   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
-│   └── 2009-04-26-barcamp-boston-4-roundup.textile
-├── _data
-│   └── members.yml
-├── _site
-└── index.html
-111
+├── public
+├── package.json
+├── src
+│   ├── __ test __
+│   ├── app
+│   ├── pages
+│   ├── 
+│   ├── pages
+│       ├── auth
+│   ├── components
+│   ├── shared
+│   ├── locales
+│   ├── helpers
+│   ├── ducks
+│   ├── configs
+│   ├── assets
+│   ├── utile
+│   ├── app.test.tsx
+│   ├── index.tsx
+│   ├── i18n.ts
+│   └── env.ts
+└── README.md
+```
