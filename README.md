@@ -8,6 +8,6 @@ TMA dashboard is a c-panel for (Teach Me Arabic) project for e-learning and educ
 ## How to get up and running.
 
 - clone this repo to your local machine 
-- open terminal in the repo dir and run yarn to install dependancies
+- open terminal in the repo dir and run <script>yarn</script> to install dependancies
 - after installing all packages run yarn start to start the application on localhost:3000
 - build the binary optemized version of the app by running yarn build
