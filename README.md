@@ -26,6 +26,19 @@ TMA dashboard is a c-panel for (Teach Me Arabic) project for e-learning and educ
 │   ├── 
 │   ├── pages
 │       ├── auth
+│       ├── groups
+│       ├── live-classes
+│       ├── levels
+│       ├── permissions
+│       ├── students
+│       ├── users
+│       ├── settings
+│       ├── reports
+│       ├── home
+│       ├── packages
+│       ├── packages
+│       ├── profile
+│       └── index.ts
 │   ├── components
 │   ├── shared
 │   ├── locales
