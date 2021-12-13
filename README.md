@@ -53,3 +53,22 @@ TMA dashboard is a c-panel for (Teach Me Arabic) project for e-learning and educ
 │   └── env.ts
 └── README.md
 ```
+
+--- 
+## Localisation
+
+We use i18next library to provide dashboard users with multi-languages experiance  and let them toggle between languages at any time, for now we use only english and arabic languages.
+
+---
+## Configuration And Environment Variables
+
+We have a env.ts file located on the src folder which uses to manage the branch or server environment like __stage__ , __dev__ or __production__, you can access any of these servers by changing env file, and in the configs file we have __API URIs__ management according to the env variable set on the bracnch.
+
+There are three different json files for the several environment each file contain only one server URIs and can be used for accessing the server and only one json file executed at the time.
+
+---
+## Handling Forms
+ 
+Using __react-hook-form__ to handle html forms and extract the data out of it and there are custom hooks to manage and reformat the data after extracted by __react-hook-form__.
+
+
