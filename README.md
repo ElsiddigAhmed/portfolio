@@ -15,7 +15,7 @@ TMA dashboard is a c-panel for (Teach Me Arabic) project for e-learning and educ
 ---
 ## Filesystem and file architecture.
 
-.
+```
 +-- public
 +-- package.json
 +-- src
@@ -36,3 +36,4 @@ TMA dashboard is a c-panel for (Teach Me Arabic) project for e-learning and educ
 |   +-- app.test.tsx
 |   +-- env.ts
 +-- README.md
+```
