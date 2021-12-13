@@ -46,7 +46,7 @@ TMA dashboard is a c-panel for (Teach Me Arabic) project for e-learning and educ
 │   ├── ducks
 │   ├── configs
 │   ├── assets
-│   ├── utile
+│   ├── utiles
 │   ├── app.test.tsx
 │   ├── index.tsx
 │   ├── i18n.ts
@@ -71,4 +71,30 @@ There are three different json files for the several environment each file conta
  
 Using __react-hook-form__ to handle html forms and extract the data out of it and there are custom hooks to manage and reformat the data after extracted by __react-hook-form__.
 
+---
+## Helpers
+
+In the helpers folder we have many different classes writted to manage, access and update system statuses and so many things on the code like accessing storage and using different type of storage by the system, you can also use api adapters and services classes provided as a helpers.
+
+### here are a list of helpers you can use in the system.
+
+- accessing and managing storage on the system using __storage adapter class__.
+- connecting to the api and passing data to remote web services using __service class__.
+- change and handle system settings using __system status class__.
+- using the the remote proxy and connecting to the apis in one place using __api proxy class__.
+
+---
+## Routing And Pages.
+
+using __react-router-dom__ to handle routing on the system and creating several routing components that accept many type of authentication and different roles of users to manage auth and protected routes and provide a smooth access to it.
+
+---
+## Components And Shared Code.
+
+we have all shared code, layout and reused components under one folder called components and we put all main pages and screens that have a seperate page url in __pages__ folder, the components like dashboard layout, inputs and lists, popup wrappers and all of that as a reusable elements in the system so they should not depent on a specific page or some other code and they are wildly used in the system.
+
+---
+## Data Management.
+
+We use __Redux__ to handle and manage data and system states, so far we need to enhance the data management a bit in free time but we have the controllers working fine and all data changing states are handled by __redux__ , we use thunk middleware as a simple and easy to understand middleware for redux, _we do not save user status on redux states but we temperarly storing them while we fetching data from web services.
 
