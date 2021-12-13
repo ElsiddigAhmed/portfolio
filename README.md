@@ -98,3 +98,7 @@ we have all shared code, layout and reused components under one folder called co
 
 We use __Redux__ to handle and manage data and system states, so far we need to enhance the data management a bit in free time but we have the controllers working fine and all data changing states are handled by __redux__ , we use thunk middleware as a simple and easy to understand middleware for redux, _we do not save user status on redux states but we temperarly storing them while we fetching data from web services.
 
+---
+## Testing
+
+We have testing the main units in the code as a unit test and also the system as a one unit running using integration test, the __ test __ folder contain the unit test for all units on the system that are dependent from other units or code like api proxy and system status and so many things out there.
