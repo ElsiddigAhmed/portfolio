@@ -35,4 +35,3 @@ TMA dashboard is a c-panel for (Teach Me Arabic) project for e-learning and educ
 |   +-- i18n.ts
 |   +-- app.test.tsx
 |   +-- env.ts
-+-- 
